@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645705848258' stop='1645705849661'>
+    <name>Login Functional Testing</name>
+    <title>Login Functional Testing</title>
+    <test-cases>
+        <test-case start='1645705848258' status='broken' stop='1645705849660'>
+            <name>should login as standard credentials</name>
+            <title>should login as standard credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645705848260' status='passed' stop='1645705849476'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fbf7e348-55bc-4b08-8b3b-c0be15bb8f2b-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645705849477' status='passed' stop='1645705849489'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='793b9f8f-bcf2-4a23-8938-4dd5624e08f6-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='99007726-141a-4341-b15a-e48f69c9ecfb-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645705849494' status='passed' stop='1645705849512'>
+                    <name>POST /session/:sessionId/element/e19f8c1d-3fd2-4fc1-bf22-64a4b489a2f7/clear</name>
+                    <title>POST /session/:sessionId/element/e19f8c1d-3fd2-4fc1-bf22-64a4b489a2f7/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645705849516' status='passed' stop='1645705849550'>
+                    <name>POST /session/:sessionId/element/e19f8c1d-3fd2-4fc1-bf22-64a4b489a2f7/value</name>
+                    <title>POST /session/:sessionId/element/e19f8c1d-3fd2-4fc1-bf22-64a4b489a2f7/value</title>
+                    <attachments>
+                        <attachment title='Request' source='8e488db8-1f93-48cd-b273-804582300d68-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645705849552' status='passed' stop='1645705849659'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e69fc2e5-d596-4e36-ba26-3eed58067c89-attachment.png' type='image/png' size='48347'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'click' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'click' of undefined
+                    at LoginPage.login (E:\ScripsDemo\test\pageobjects\login.page.js:38:41)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Context.&lt;anonymous> (E:\ScripsDemo\test\specs\login.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

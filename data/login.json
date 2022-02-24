@@ -1,0 +1,19 @@
+{
+  "standard_user": {
+    "email": "standard_user",
+    "password": "secret_sauce"
+  },
+  "locked_out_user": {
+    "email": "locked_out_user",
+    "password": "secret_sauce"
+  },
+  "problem_user": {
+    "email": "problem_user",
+    "password": "secret_sauce"
+  },
+  "performance_glitch_user": {
+    "email": "performance_glitch_user",
+    "password": "secret_sauce"
+  }
+
+}

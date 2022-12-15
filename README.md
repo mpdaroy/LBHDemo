@@ -1,5 +1,5 @@
 # LBHDemo
-This repository is for my QA automation application demo for Scrips
+This repository is for my QA automation application demo for LBH
 
 
 Please execute in sequence
